@@ -1,4 +1,4 @@
-# 芸能人格付けクイズ風!二択を選ぶクイズ!!(ヒントあり)
+# 芸能人格付けクイズ風!二択を選ぶクイズ!!(ヒント・解説付き)
 
 ## 難易度:★★☆☆☆
 
@@ -19,6 +19,7 @@
 - HTML上の要素を取得する `document.getElementById()`
 - Event.onclickでイベントを受け取って処理を実行する `.onclick = function () {}`
 - Object.textContentで中身を変更する `.textContent = ""`
+- audioタグを再生する `.play()`
 
 ## 分担例
 

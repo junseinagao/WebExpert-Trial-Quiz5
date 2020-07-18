@@ -2,9 +2,9 @@
  * 「下準備」
  * HTML上でidの付いた要素を取得する
  */
-const A = document.getElementById("button-a");
-const B = document.getElementById("button-b");
-const HINT = document.getElementById("button-hint");
+const A = document.getElementById("a-button");
+const B = document.getElementById("b-button");
+const HINT = document.getElementById("hint-button");
 const HINT_DISPLAY = document.getElementById("hint-display");
 const RESULT_DISPLAY = document.getElementById("result-display");
 const EXPLAIN_DISPLAY = document.getElementById("explain-display");
