@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>芸能人格付けクイズ風!二択を選ぶクイズ!!(ヒント付き)</title>
+  </head>
+  <body>
+    <!-- ↓クイズのタイトルをh2の中に書こう↓ -->
+    <h2>オーケストラでより低い音を吹くのはどっちの楽器?</h2>
+    <!-- ↓imgタグを変更してクイズの写真を変えよう↓ -->
+    <div class="A">
+      <h1>A</h1>
+      <img src="tuba.jpg" />
+    </div>
+    <div class="B">
+      <h1>B</h1>
+      <img src="horn.jpg" />
+    </div>
+    <div>
+      正解は?
+      <!-- ↓「A」と答えるボタンを作ろう(id="button-a")↓ -->
+      <button id="button-a">A</button>
+      <!-- ↓「B」と答えるボタンを作ろう(id="button-b")↓ -->
+      <button id="button-b">B</button>
+      <!-- ↓ヒントを教えるボタンを作ろう(id="button-hint")↓ -->
+    </div>
+    <div><button id="button-hint">ヒント</button></div>
+    <!-- ↓ヒントを表示するdivタグを作ろう(id="hint-display")↓ -->
+    <div id="hint-display"></div>
+    <div>
+      <!-- ↓結果を表示するh2タグを作ろう(id="result-display")↓ -->
+      <h2 id="result-display"></h2>
+    </div>
+    <div>
+      <!-- ↓解説を表示するdivタグを作ろう(id="explain-display")↓ -->
+      <div id="explain-display"></div>
+    </div>
+    <!-- ↓audioタグにidを付けよう(id="audio-crrect")(id="aduio-wrong")↓ -->
+    <audio src="correct.mp3" id="audio-correct"></audio>
+    <audio src="wrong.mp3" id="audio-wrong"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
