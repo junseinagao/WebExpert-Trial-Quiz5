@@ -3,6 +3,7 @@ div {
 }
 
 img {
+  margin: 1em;
   width: 320px;
 }
 
@@ -24,10 +25,14 @@ img {
   padding: 1em;
   color: white;
   background-color: red;
+  display: inline;
+  display: inline-block;
 }
 
 .B {
   padding: 1em;
   color: white;
   background-color: blue;
+  display: inline;
+  display: inline-block;
 }
